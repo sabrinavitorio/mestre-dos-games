@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu carrinho | MESTRE DOS GAMES</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <a class="logo" href="index.html" style="text-decoration:none">MESTRE DOS GAMES</a>
+    <nav><a href="index.html#inicio">Início</a><a href="index.html#categorias">Categorias</a><a href="index.html#destaques">Jogos</a><a href="index.html#ofertas">Ofertas</a></nav>
+    <div class="header-icons"><a href="carrinho.html">🛒 Carrinho <span class="cart-count" id="cart-count">0</span></a></div>
+  </header>
+
+  <!-- PRINCIPAL -->
+  <main class="cart-page">
+    <a class="back-link" href="index.html">← Continuar comprando</a>
+
+    <h1>MEU CARRINHO</h1>
+
+    <div class="cart-layout">
+      <section class="cart-items" id="cart-items" aria-live="polite"></section>
+
+      <aside class="cart-summary">
+
+        <h2>RESUMO DO PEDIDO</h2>
+
+        <div class="summary-line">
+          <span>Subtotal</span><strong id="subtotal">R$ 0,00</strong>
+        </div>
+
+        <div class="summary-line">
+          <span>Desconto</span><strong id="discount">R$ 0,00</strong>
+        </div>
+
+        <div class="summary-line summary-total">
+          <span>Total</span><strong id="total">R$ 0,00</strong>
+        </div>
+
+        <!-- CUPOM DE DESCONTO -->
+       <form class="coupon-area" id="coupon-form">
+
+         <input
+         type="text"
+         id="coupon"
+         placeholder="Código do cupom"
+         aria-label="Código do cupom">
+
+        <button type="submit">Aplicar</button>
+      </form>
+
+        <p class="message" id="coupon-message" aria-live="polite">
+          Use MESTRE10 para ganhar 10% de desconto.
+        </p>
+
+        <button class="checkout-button" id="checkout">FINALIZAR COMPRA</button>
+
+        <p class="message" id="checkout-message" aria-live="polite"></p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="logo">MESTRE DOS GAMES</div>
+    <p>Seu universo gamer em um só lugar.</p>
+    <p class="copyright">© 2026 MESTRE DOS GAMES. Projeto acadêmico demonstrativo.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

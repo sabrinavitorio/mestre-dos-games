@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESTRE DOS GAMES | Loja Gamer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">MESTRE DOS GAMES</div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#contato">Contato</a>
+            <a href="#ofertas">Ofertas</a>
+        </nav>
+
+        <div class="header-icons">
+            <a href="#">♡ Favoritos</a>
+            <a href="carrinho.html">🛒 Carrinho <span class="cart-count" id="cart-count">0</span></a>
+        </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="tag">O UNIVERSO GAMER COMEÇA AQUI</span>
+            <h1>SEU PRÓXIMO<br>JOGO FAVORITO<br><span>ESTÁ AQUI.</span></h1>
+            <p>Explore os melhores jogos, encontre grandes ofertas e prepare-se para novas aventuras.</p>
+            <a href="#destaques" class="btn">EXPLORAR JOGOS</a>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="section" id="categorias">
+
+        <h2>EXPLORE AS <span>CATEGORIAS</span></h2>
+        <p class="subtitle">Encontre seu próximo desafio.</p>
+
+        <div class="categories">
+            <div class="category">
+                <div class="category-icon">🎮</div>
+                <h3>PlayStation</h3>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">🟢</div>
+                <h3>Xbox</h3>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">🔴</div>
+                <h3>Nintendo</h3>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">💻</div>
+                <h3>PC Games</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOGOS EM DESTAQUE -->
+    <section class="section featured" id="destaques">
+        <h2>JOGOS EM <span>DESTAQUE</span></h2>
+        <p class="subtitle">Os favoritos da comunidade gamer.</p>
+
+        <div class="products">
+
+            <div class="product-card">
+                <img src="./imagens/minecraft.jpg" alt="capa do jogo minecraft">
+                <div class="product-info">
+                    <span class="platform">PLAYSTATION 5</span>
+                    <h3>Minecraft</h3>
+                    <p class="old-price">R$ 284,90</p>
+                    <p class="price">R$ 142,45</p>
+                    <button class="add-to-cart" data-id="minecraft" data-name="Minecraft" data-price="142.45" data-platform="PlayStation 5">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagens/rise-of-the-tomb-raider.jpg" alt="capa do jogo rise of the tomb raider">
+                <div class="product-info">
+                    <span class="platform">PC</span>
+                    <h3>Rise of the Tomb Raider</h3>
+                    <p class="old-price">R$ 249,90</p>
+                    <p class="price">R$ 129,90</p>
+                    <button class="add-to-cart" data-id="tomb-raider" data-name="Rise of the Tomb Raider" data-price="129.90" data-platform="PC">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagens/forza-horizon-5.jpg" alt="capa do jogo forza horizon 5">
+                <div class="product-info">
+                    <span class="platform">XBOX SERIES X</span>
+                    <h3>Forza Horizon 5</h3>
+                    <p class="old-price">R$ 299,90</p>
+                    <p class="price">R$ 159,90</p>
+                    <button class="add-to-cart" data-id="forza" data-name="Forza Horizon 5" data-price="159.90" data-platform="Xbox Series X">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagens/GTA-VI.jpg" alt="capa do jogo grand theft auto vi">
+                <div class="product-info">
+                    <span class="platform">PLAYSTATION 5</span>
+                    <h3>Grand Theft Auto VI</h3>
+                    <p class="old-price">R$ 418,41</p>
+                    <p class="price">R$ 229,90</p>
+                    <button class="add-to-cart" data-id="gta-vi" data-name="Grand Theft Auto VI" data-price="229.90" data-platform="PlayStation 5">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFERTA -->
+    <section class="offer" id="ofertas">
+        <div>
+            <span>OFERTA ESPECIAL</span>
+            <h2>SEU PRÓXIMO GAME<br>COM ATÉ 50% OFF!</h2>
+            <p>Não perca a oportunidade de expandir sua coleção.</p>
+            <a href="#destaques" class="btn">CONFERIR OFERTAS</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- INFORMAÇÕES -->
+    <section id="info-container">
+        
+        <!-- COMPARAÇÃO DE JOGOS -->
+        <section class="section comparison">
+
+           <h3 class="subtitle">CONFIRA NOSSAS JOGOS, PLATAFORMAS E OFERTAS</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jogo</th>
+                        <th>Plataforma</th>
+                        <th>Preço original</th>
+                        <th>Preço atual</th>
+                        <th>Desconto</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Minecraft</td>
+                        <td>PlayStation 5</td>
+                        <td>R$ 284,90</td>
+                        <td>R$ 142,45</td>
+                        <td>50%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rise of the Tomb Raider</td>
+                        <td>PC</td>
+                        <td>R$ 249,90</td>
+                        <td>R$ 129,90</td>
+                        <td>48%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Forza Horizon 5</td>
+                        <td>Xbox Series X</td>
+                        <td>R$ 299,90</td>
+                        <td>R$ 159,90</td>
+                        <td>47%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- BENEFÍCIOS -->
+        <section class="benefits">
+            <div>
+                <h3>POR QUE COMPRAR AQUI?</h3>
+
+                <ul>
+                    <li><span>➜</span> Entrega rápida e segura</li>
+                    <li><span>➜</span> Ofertas especiais</li>
+                    <li><span>➜</span> Grande variedade de jogos</li>
+                    <li><span>➜</span> Pagamento facilitado</li>
+                    <li><span>➜</span> Compra segura</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="logo">MESTRE DOS GAMES</div>
+        <p>Seu universo gamer em um só lugar.</p>
+        <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#destaques">Jogos</a>
+            <a href="#ofertas">Ofertas</a>
+        </div>
+        <p class="copyright">© 2026 MESTRE DOS GAMES. Projeto acadêmico demonstrativo.</p>
+        <p class="credits">Desenvolvido por Sabrina Vitorio e Douglas do Carmo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
