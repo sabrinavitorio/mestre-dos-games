@@ -7,7 +7,7 @@ Projeto acadêmico de Desenvolvimento Web com homepage e carrinho de compras dem
 - `carrinho.html`: página do carrinho.
 - `style.css`: estilos das duas páginas.
 - `script.js`: funcionalidades em JavaScript.
-- `imagens/`: imagens fornecidas pelo grupo.
+- `imagens/`: imagens selecionadas pela dupla.
 
 ## Como executar
 1. Extraia a pasta do projeto.
